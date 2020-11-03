@@ -1,20 +1,4 @@
-#pragma once
 
-#include <assert.h>
-#include <stdint.h>
-#include <limits.h>
-#include <sys/stat.h>
-#include <stddef.h>
-#include <stdbool.h>
-
-/**
- * a1fs block size in bytes. You are not allowed to change this value.
- *
- * The block size is the unit of space allocation. Each file (and directory)
- * must occupy an integral number of blocks. Each of the file systems metadata
- * partitions, e.g. superblock, inode/block bitmaps, inode table (but not an
- * individual inode) must also occupy an integral number of blocks.
- */
 #define A1FS_BLOCK_SIZE 4096
 
 /** Block number (block pointer) type. */
