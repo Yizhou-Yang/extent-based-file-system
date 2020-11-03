@@ -8,3 +8,5 @@ mkfs.c and fsctx.c and correponding .h files are also designed and implemented b
 it is still 1500+ lines of my original code and my own design, though. It is similar to ext2 but it is extent based like ext4.
 
 it is written entirely in C.
+
+I removed all work not done by myself, therefore this code does not compile. But I did included the school given autotest to provide an insight of how this code worked.
