@@ -1,5 +1,5 @@
 # extent-based-file-system
-A C written extent based file system. PERSONAL USE AND MAY NOT BE SHARED PUBLICLY
+A C written extent based file system. PERSONAL USE ONLY
 The only reason I'm including this to my github publicly but not privitely is so that interviewers get a rough idea of my OS skills.
 
 my work focuses on a1fs.c, which implements many standard operations of a file system. mkdir,rmdir,touch,ls,stat,rm and truncate/read/write.
